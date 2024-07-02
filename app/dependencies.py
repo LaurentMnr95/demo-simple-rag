@@ -1,4 +1,4 @@
-# Dependency
+# dependencies.py
 from app.extensions.db import DbSession
 
 

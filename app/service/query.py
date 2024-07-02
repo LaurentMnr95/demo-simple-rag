@@ -28,7 +28,7 @@ def _build_hypothetical_answer(query: str) -> str:
     return query_answer_prompt
 
 
-def answer_query(query: str, session: Session) -> str:
+def answer_query(query: str, secssion: Session) -> str:
     # TODO: Implement embedding logic
     client = openai.OpenAI(api_key="xxx")
 
